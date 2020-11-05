@@ -6,7 +6,7 @@ A Portfolio/Resume website template for Programmers, Geeks, Developers, Hackers 
 2. Simple and Fast website User Interface.
 
 ## Live Hosting
-[Aryan Felix](aryanfelix.ml)
+[Aryan Felix](https://www.aryanfelix.ml)
 
 ## How To Edit
 If you are reading this then I will assume that you know something about code and want to make a resume website of yours then this open-source project may help you setup it to showcase all your creations without effort.
