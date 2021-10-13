@@ -66,10 +66,10 @@ section {
     background-size: cover;
     background-position: right;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .banner h2 {
@@ -110,19 +110,11 @@ section {
     box-shadow: 7px 7px 15px -5px rgba(0, 0, 0, 0.3);
 }
 
-.image {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: end;
-}
-
 .image img {
-    position: relative;
-    /* top: 8%;
-    left: 52%; */
-    width: 600px;
-    display: flex;
+    position: absolute;
+    top: 8%;
+    left: 52%;
+    width: 45%;
     -webkit-filter: drop-shadow(2px 1px 0 black) drop-shadow(-1px -1px 0 black);
     filter: drop-shadow(2px 1px 0 black) drop-shadow(-1px -1px 0 black);
 }
@@ -441,7 +433,7 @@ header.sticky ul li a:hover {
 /*  */
 /*  */
 /*  */
-@media (max-width: 600px) {
+@media (max-width: 600px){
     .banner .image img {
         display: none;
     }
@@ -463,6 +455,8 @@ header.sticky ul li a:hover {
         padding: 100px 20px;
     }
 }
+
+
 
 @media (max-width: 991px) {
     .banner .image img {
@@ -605,5 +599,28 @@ header.sticky ul li a:hover {
 
     .contact {
         margin: 20px 0;
+    }
+}
+
+@media (max-height: 600px){
+    .banner .image img {
+        display: none;
+    }
+
+    .toggle {
+        display: none;
+    }
+
+    header,
+    header.sticky {
+        padding: 20px 20px;
+    }
+
+    .banner {
+        padding: 0px 50px 100px;
+    }
+
+    section {
+        padding: 100px 20px;
     }
 }

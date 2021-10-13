@@ -13,6 +13,12 @@
     <link id="themeSwitcher" rel="stylesheet" href="css/temp.css">
 </head>
 
+<style>
+    img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+        display: none;
+    }
+</style>
+
 <body onload="myFunction()" id="body" class="hideScroll">
     <div class="loader" id="loader">
         <div class="block3"></div>
@@ -39,8 +45,6 @@
             <h3>Programmer.</h3>
             <h3>Dreamer.</h3>
             <a href="#about" class="btn">About Me!</a>
-        </div>
-        <div class="filler">
         </div>
         <div class="image" style="z-index: 998;">
             <img src="https://i.ibb.co/1KfhrpZ/Profile.png" alt="">
@@ -80,6 +84,31 @@
         </div>
         <div class="content">
             <div class="servicesBox">
+                <img src="img/ML.png" alt="Data Science & Machine Learing">
+                <h2>AI</h2>
+                <p>Data Science, Machine Learning and Deep Learning</p>
+            </div>
+            <div class="servicesBox">
+                <img src="img/Python.png" alt="Python">
+                <h2>Python Programming</h2>
+                <p>Data Structures and Algorithms, Software Development, Object Oriented Programming</p>
+            </div>
+            <div class="servicesBox">
+                <img src="img/Library.png" alt="Libraries">
+                <h2>Libraries/Modules</h2>
+                <p>Keras, SciKit Learn, OpenCV, TensorFlow, NumPy, Pandas and others</p>
+            </div>
+            <div class="servicesBox">
+                <img src="img/Database.png" alt="Database">
+                <h2>Database</h2>
+                <p>MySQL, MongoDB</p>
+            </div>
+            <div class="servicesBox">
+                <img src="img/C++.png" alt="C/C++">
+                <h2>C/C++</h2>
+                <p>Data Structures and Algorithms, Software Development, Object Oriented Programming</p>
+            </div>
+            <div class="servicesBox">
                 <img src="img/WebDesign.png" alt="Web Design">
                 <h2>Web Design</h2>
                 <p>HTML, CSS, JavaScript, jQuery, Bootstrap</p>
@@ -90,39 +119,14 @@
                 <p>Node.js, Express.js, EJS, React.js</p>
             </div>
             <div class="servicesBox">
-                <img src="img/Python.png" alt="Python">
-                <h2>Python Programming</h2>
-                <p>Data Structures and Algorithms, Software Development</p>
-            </div>
-            <div class="servicesBox">
-                <img src="img/C++.png" alt="C/C++">
-                <h2>C/C++</h2>
-                <p>Data Structures and Algorithms, Software Development</p>
-            </div>
-            <div class="servicesBox">
-                <img src="img/ML.png" alt="Data Science & Machine Learing">
-                <h2>AI</h2>
-                <p>Data Science and Machine Learning</p>
-            </div>
-            <div class="servicesBox">
-                <img src="img/Database.png" alt="Database">
-                <h2>Database</h2>
-                <p>MySQL, MongoDB</p>
-            </div>
-            <div class="servicesBox">
-                <img src="img/Library.png" alt="Libraries">
-                <h2>Libraries/Modules</h2>
-                <p>Numpy, Pandas, OpenCV etc</p>
-            </div>
-            <div class="servicesBox">
                 <img src="img/Github.png" alt="Github">
                 <h2>Github</h2>
                 <p>Open Source Programming</p>
             </div>
             <div class="servicesBox">
                 <img src="img/Heroku.png" alt="Heroku">
-                <h2>Heroku</h2>
-                <p>Website Deployment</p>
+                <h2>Tools</h2>
+                <p>Heroku, Git, VS Code, Sublime, Jupyter, Google Colab, Anaconda</p>
             </div>
         </div>
     </section>
@@ -133,55 +137,59 @@
             <p>Here are some of my projects.</p>
         </div>
         <div class="content">
+            <a href="https://github.com/AryanFelix/Face-Mask-Detection-CNN">
+                <div class="workBox">
+                    <h2>FACE MASK</h2>
+                    <h2>DETECTION</h2>
+                    <h4>Keras | OpenCV | PIL</h4>
+                    <br>
+                    <p>A Face Mask Detection tool that detects whether the user is wearing a Mask,
+                        not wearing a Mask or if the user is wearing the mask incorrectly.</p>
+                </div>
+            </a>
+            <a href="https://github.com/AryanFelix/Brain-Tumor-Classification">
+                <div class="workBox">
+                    <h2>BRAIN TUMOR SEGMENTATION</h2>
+                    <h4>Keras | TensorFlow | PIL</h4>
+                    <br>
+                    <p>A Deep Learning model to detect and segment brain tumors from MRIs using
+                        Convolution Neural Networks.</p>
+                </div>
+            </a>
             <a href="https://github.com/AryanFelix/COVID-19-Regression-Model-India">
                 <div class="workBox">
-                    <h2>COVID-19 Model</h2>
-                    <h4>Python, Sci-Kit Learn, MatPlotLib</h4>
+                    <h2>COVID-19</h2>
+                    <h2>ANALYSIS</h2>
+                    <h4>Python | SciKit Learn | NumPy</h4>
                     <br>
-                    <p>A polynomial regression model to predict the number of infections, recoveries and deaths on a
-                        particular day in the future.</p>
+                    <p>A polynomial regression model to predict the number of infections, recoveries
+                        and deaths on a particular day in the future.</p>
                 </div>
             </a>
             <a href="https://github.com/AryanFelix/AirPen">
                 <div class="workBox">
-                    <h2>AirPen</h2>
-                    <h4>Python, OpenCV, NumPy</h4>
+                    <h2>AIRPEN</h2>
+                    <h2>VIRTUAL STYLUS</h2>
+                    <h4>Python | OpenCV | NumPy</h4>
                     <br>
-                    <p>A virtual drawing app that lets you use your household object as a stylus. The code works purely
-                        on the OpenCV and NumPy libraries.</p>
+                    <p>A virtual drawing app that lets you use your household object as a stylus.
+                        Fully functional executable app for Windows.</p>
                 </div>
             </a>
-            <a href="https://github.com/AryanFelix/Banking-Software">
+            <a href="https://github.com/AryanFelix/Online-Election-Portal">
                 <div class="workBox">
-                    <h2>Banking Software</h2>
-                    <h4>C++</h4>
+                    <h2>FULL STACK ONLINE ELECTION PORTAL</h2>
+                    <h4>Node.js | Express.js | MongoDB</h4>
                     <br>
-                    <p>A generic banking software used in majority of banks. Uses file handling to save local files.
-                        Easy creation, modification and deletion.</p>
+                    <p>An online election portal for conducting student body elections for the
+                        students of Sikkim Manipal Institute of Technology.</p>
                 </div>
             </a>
-            <a href="https://github.com/AryanFelix/WordCloud">
+            <a href="https://github.com/AryanFelix/Movie-Recommenditon-Software">
                 <div class="workBox">
-                    <h2>WhatsCloud</h2>
-                    <h4>Python, NumPy, Pandas</h4>
-                    <br>
-                    <p>Convert your WhatsApp chats into a WordCloud. The script will automatically detect the most used
-                        words from your chat and add them to the WordCloud.</p>
-                </div>
-            </a>
-            <a href="https://github.com/AryanFelix/Wiki-API">
-                <div class="workBox">
-                    <h2>Wiki API</h2>
-                    <h4>Node.js, Express.js, Mongoose</h4>
-                    <br>
-                    <p>API backend used in article distribution sites like Wikipedia Inc. Made using Node, Express,
-                        Mongoose, EJS, Body Parser, Lodash.</p>
-                </div>
-            </a>
-            <a href="https://github.com/AryanFelix/Wiki-API">
-                <div class="workBox">
-                    <h2>Movie Recommender</h2>
-                    <h4>Python, Requests, JSON</h4>
+                    <h2>MOVIE RECOMMENDATION</h2>
+                    <h2>USING API</h2>
+                    <h4>Python | Requests | JSON</h4>
                     <br>
                     <p>Predicts best possible movie choices based on your previous movie likings. Works on the TasteDive
                         and OMDB API.</p>
@@ -238,7 +246,7 @@
             </div>
         </div>
 
-        <a href="https://www.linkedin.com/in/aryan-felix-815a42193/">
+        <a href="https://www.linkedin.com/in/aryanfelix/">
             <div class="box">
                 <div class="icon">
                     <i class="fa fa-linkedin"></i>
@@ -275,19 +283,21 @@
     </section>
 
     <div class="footer">
-        <h3>Copyright © 2020 - <a href="https://github.com/AryanFelix">Aryan Felix</a></h3>
+        <h3>Copyright © <span id = "spanDate"></span> - <a href="https://github.com/AryanFelix">Aryan Felix</a></h3>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-    <script src="js/removeBanner.js"></script>
     <script>
         function myFunction() {
             $('#loader').addClass("hide-loader");
             $('#body').removeClass("hideScroll");
-            banner();
         }
     </script>
     <script src="js/theme.js"></script>
+    <script>
+        var tomorrow = new Date();      
+        document.getElementById("spanDate").innerHTML = tomorrow.getFullYear();
+    </script>
     <script>
         window.addEventListener('scroll', function () {
             var header = document.querySelector('header');

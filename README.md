@@ -1,9 +1,4 @@
-# Aryan Felix Portfolio Website
-A Portfolio/Resume website template for Programmers, Geeks, Developers, Hackers etc.
-
-## Highlights
-1. Very easy to understand and you get a portfolio template of your own.
-2. Simple and Fast website User Interface.
+# Aryan Felix's Portfolio Website
 
 ## Live Hosting
 [Aryan Felix](aryanfelix.ml)
